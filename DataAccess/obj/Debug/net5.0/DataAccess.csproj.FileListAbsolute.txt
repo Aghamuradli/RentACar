@@ -13,3 +13,6 @@ C:\Users\Agamuradov\source\repos\RentACar\DataAccess\obj\Debug\net5.0\DataAccess
 C:\Users\Agamuradov\source\repos\RentACar\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 C:\Users\Agamuradov\source\repos\RentACar\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 C:\Users\Agamuradov\source\repos\RentACar\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\Agamuradov\source\repos\RentACar\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\Agamuradov\source\repos\RentACar\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\Agamuradov\source\repos\RentACar\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
