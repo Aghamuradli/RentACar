@@ -22,5 +22,18 @@ namespace Business.Constants
         public static string ColorUpdated = "Color updated .";
         public static string ColorDeleted = "Color deleted .";
         public static string ColorsListed = "Colors are listed .";
+        internal static string UserAdded;
+        internal static string UserDeleted;
+        internal static string UserListed;
+        internal static string UserUpdated;
+        internal static string CustomerDeleted;
+        internal static string CustomerAdded;
+        internal static string CustomerListed;
+        internal static string CustomerUpdated;
+        internal static string RentalInvalid;
+        internal static string RentalAdded;
+        internal static string RentalDeleted;
+        internal static string RentalListed;
+        internal static string RentalUpdated;
     }
 }

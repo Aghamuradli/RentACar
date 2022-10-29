@@ -10,19 +10,31 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            var result = carManager.GetCarDetails();
-            if (result.Success==true)
+            CustomerManager customerManager = new(new EfCustomerDal());
+            UserManager userManager = new(new EfUserDal());
+            RentalManager rentalManager = new(new EfRentalDal());
+
+            //userManager.Add(new()
+            //{
+            //    FirstName = "Babek",
+            //    LastName = "Agamuradli",
+            //    Email = "babek.aghamuradli@gmail.com",
+            //    Password = "babek122334"
+            //});
+
+            //customerManager.Add(new()
+            //{
+            //    UserId = 1,
+            //    CompanyName = "Alsovve"
+            //});
+
+            rentalManager.Add(new()
             {
-                foreach (var car in result.Data)
-                {
-                    Console.WriteLine("Brand Name : " + car.BrandName);
-                    Console.WriteLine("Color :" + car.ColorName);
-                }
-            }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
+                CustomerId = 1,
+                CarId = 2,
+                RentDate = DateTime.Parse("12/09/2022"),
+                ReturnDate = DateTime.Parse("14/09/2022")
+            });
         }
     }
 }
