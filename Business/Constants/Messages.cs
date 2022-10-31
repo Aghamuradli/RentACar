@@ -22,18 +22,18 @@ namespace Business.Constants
         public static string ColorUpdated = "Color updated .";
         public static string ColorDeleted = "Color deleted .";
         public static string ColorsListed = "Colors are listed .";
-        internal static string UserAdded;
-        internal static string UserDeleted;
-        internal static string UserListed;
-        internal static string UserUpdated;
-        internal static string CustomerDeleted;
-        internal static string CustomerAdded;
-        internal static string CustomerListed;
-        internal static string CustomerUpdated;
-        internal static string RentalInvalid;
-        internal static string RentalAdded;
-        internal static string RentalDeleted;
-        internal static string RentalListed;
-        internal static string RentalUpdated;
+        public static string UserAdded = "User added .";
+        public static string UserDeleted = "User deleted .";
+        public static string UserUpdated = "User updated .";
+        public static string UserListed = "User listed .";
+        public static string CustomerAdded = "Customer added .";
+        public static string CustomerDeleted = "Customer deleted .";
+        public static string CustomerUpdated = "Customer updated .";
+        public static string CustomerListed = "Customer listed .";
+        public static string RentalAdded = "Rental added .";
+        public static string RentalDeleted = "Rental deleted .";
+        public static string RentalUpdated = "rental updated .";
+        public static string RentalListed = "Rental listed .";
+        public static string RentalInvalid = "Rental invalid .";
     }
 }
