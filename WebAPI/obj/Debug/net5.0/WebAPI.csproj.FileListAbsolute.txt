@@ -64,3 +64,8 @@ C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\refint\WebAPI.
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Autofac.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
