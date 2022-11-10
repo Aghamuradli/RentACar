@@ -70,3 +70,6 @@ C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Autofac.Extras
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
