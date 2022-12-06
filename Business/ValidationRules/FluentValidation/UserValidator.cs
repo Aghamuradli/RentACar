@@ -1,15 +1,10 @@
-﻿using Entities.Concrete;
+﻿using Entities.DTOs;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Business.ValidationRules.FluentValidation
 {
-    public class UserValidator : AbstractValidator<User>
+    public class UserValidator : AbstractValidator<UserForRegisterDto>
     {
         public UserValidator()
         {
@@ -21,9 +16,9 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.Email).EmailAddress();
             RuleFor(u => u.Password).NotEmpty();
             RuleFor(u => u.Password).MinimumLength(8);
-            RuleFor(u => u.Password).Must(AtLeastOneUppercase);
-            RuleFor(u => u.Password).Must(AtLeastOneLowercase);
-            RuleFor(u => u.Password).Must(AtLeastOneDigit);
+            RuleFor(u => u.Password).Must(AtLeastOneUppercase).WithMessage("Must have at least one capital letter .");
+            RuleFor(u => u.Password).Must(AtLeastOneLowercase).WithMessage("Must have at least one lowercase letter ."); ;
+            RuleFor(u => u.Password).Must(AtLeastOneDigit).WithMessage("There must be at least one digit ."); ;
         }
 
         private bool AtLeastOneDigit(string arg)
