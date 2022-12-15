@@ -76,3 +76,8 @@ C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Exte
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Agamuradov\source\repos\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Pack.cache
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.build.WebAPI.props
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\Users\Agamuradov\source\repos\RentACar\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
